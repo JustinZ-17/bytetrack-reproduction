@@ -13,7 +13,7 @@
 - 整理踩坑记录与解决方案（见下）
 
 ## 跟踪效果
-![ByteTrack 跟踪效果](results/bytetrack_demo.gif)
+![ByteTrack 跟踪效果](/bytetrack_own_video_result.gif)
 
 ## 踩过的坑（部分）
 | 问题 | 原因 | 解决 |
@@ -26,8 +26,7 @@
 见 `bytetrack_colab.ipynb`（含完整可运行的 12 个单元格与环境重建流程）。
 由于是初学者第一次使用colab，遇到了很多次断连、丢失等问题，故存在许多修复、检查、重做等繁琐步骤，导致代码很繁琐冗长，但作为学习记录就不做优化了。
 
-## 跟踪效果
-![跟踪效果](results/demo.gif)
+
 
 ## 参考
 - [ByteTrack: Multi-Object Tracking by Associating Every Detection Box](https://arxiv.org/abs/2110.06864)（Zhang et al., ECCV 2022）
