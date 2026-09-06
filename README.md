@@ -1,5 +1,3 @@
-# bytetrack-reproduction
-对ByteTrack在Colab上进行复现的笔记
 # ByteTrack 复现：从零在 Colab 上跑通多目标跟踪
 
 大二暑假到九月初完成。在 Google Colab（免费 T4 GPU）上复现
