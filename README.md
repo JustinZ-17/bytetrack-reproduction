@@ -13,7 +13,7 @@
 - 整理踩坑记录与解决方案（见下）
 
 ##实现效果
-![Uploading bytetrack_own_video_result.gif…]()
+
 
 
 ## 踩过的坑（部分）
