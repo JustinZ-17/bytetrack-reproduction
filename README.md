@@ -16,11 +16,14 @@
 ![ByteTrack 跟踪效果](/bytetrack_own_video_result.gif)
 
 ## 踩过的坑（部分）
-| 问题 | 原因 | 解决 |\n
+
+| 问题 | 原因 | 解决 |
+|---|---|---|
 | onnxruntime 1.8.0 装不上 | Python 3.13 无对应版本 | 改装新版，忽略版本锁定 |
 | cv2.waitKey 报错 | Colab 无 GUI 环境 | 修改 demo_track.py 绕过 |
 | 视频尾部跟踪截断 | 源视频 HEVC 编码损坏 | 转码 H.264 后重跑 |
 | 运行时被回收文件丢失 | Colab 机制 | 结果持久化到 Google Drive |
+
 
 ## 复现步骤
 见 /bytetrack_demo.ipynb（含完整可运行的 12 个单元格与环境重建流程）。
